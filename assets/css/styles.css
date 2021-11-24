@@ -568,6 +568,11 @@ bottom: 5rem;
   }
 }
 
+@media screen and (max-width: 650px){
+  .languages__content{
+    grid-template-columns: repeat(1, max-content);
+  }
+}
 
 
 /* Classes modified for large screen size */
